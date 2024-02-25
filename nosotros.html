@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<body>
+    <header>
+        <h1>SOBRE NOSOTROS</h1>
+        <p>
+            Aqui podras encontrar información sobre los miembros del equipo
+        </p>
+    </header>
+    <section id="descripcion">
+        <div class ="contenedor">
+          <div class="item">
+            <p>                    
+            <img src="images/albert.jpeg" alt="Albert Meliksetyan">
+            <p>Con un talento innato para el diseño, Albert lidera la estética y la experiencia del usuario en Silent Speech. Su creatividad y habilidad para plasmar ideas son fundamentales para la apariencia y la usabilidad del sitio.</p>
+            </p>
+          </div>
+          <div class="item">
+            <p>
+              <img src="images/fabio.jpeg" alt="Fabio Susin">
+              <p>Como líder programador, Fabio aporta su experiencia técnica y visión estratégica al equipo. Su habilidad para liderar en el desarrollo de software es crucial para la plataforma.</p>
+            </p>
+          </div>
+          <div class="item">
+            <p>
+              <img src="images/sergio.jpeg" alt="Sergio Gil">
+              <p>Reconocido por su incansable ética laboral, Sergio es el motor impulsor detrás del proyecto. Su dedicación y perseverancia son fundamentales para el éxito de Silent Speech.</p>
+            </p>
+          </div>
+          <div class="item">
+            <p>
+              <img src="images/joaquin.jpeg" alt="Joaquin Beas">
+              <p>Joaquín coordina eficientemente los recursos y dirige el flujo de trabajo del equipo. Su capacidad para resolver problemas y mantener la operación en marcha es esencial para el funcionamiento exitoso de Silent Speech.</p>
+            </p>
+          </div>
+        </div>
+    </section>
+    <style>
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinea todos los elementos al principio */
+    margin: 20px 0;
+}
+
+.item {
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 20px;
+    text-align: center; /* Centra el contenido dentro del contenedor */
+}
+
+.item img {
+    width: 150px;
+    height: 150px;
+    display: block; /* Asegura que la imagen sea un elemento de bloque */
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+    border: 2px solid black; /* Agrega un borde de 2px sólido negro */
+}
+
+.descripcion {
+    text-align: center;
+}
+
+footer {
+    text-align: center; /* Centra el texto del pie de página */
+}
+    </style>
+    <footer>
+      <p>
+        <p><a href="index.html">Volver a Silent Speech.</a></p>
+      </p>
+    </footer>
+</body>
+</html>
