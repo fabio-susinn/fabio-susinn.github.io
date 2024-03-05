@@ -2,9 +2,6 @@ footer,header{
     vertical-align:middle;
     display: flex;
     background-color:aqua;  
-}
-
-header{
     padding: 10px;
     display: flex;
     align-items: center;
@@ -17,28 +14,25 @@ header{
     font-size:x-large;
     padding: 20px;
 }
-.contenedor {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start; /* Alinea todos los elementos al principio */
-    margin: 20px 0;
-}
-
-.item {
-    flex-basis: calc(25% - 20px);
-    margin-bottom: 20px;
-    text-align: center; /* Centra el contenido dentro del contenedor */
-}
-
-.item img {
-    width: 150px;
-    height: 150px;
-    display: block; /* Asegura que la imagen sea un elemento de bloque */
-    margin: 0 auto; /* Centra horizontalmente la imagen */
-    border: 2px solid black; /* Agrega un borde de 2px sólido negro */
-}
-
-.descripcion {
+h1{
     text-align: center;
+    margin-bottom: -3%;
+    margin-top: 3%;
+}
+.contenedor {
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-around; 
+}
+.itemimg {
+    display: inline-block;
+    margin: 5%;
+    text-align: center; /* Centra el contenido dentro del contenedor */
+    text-align: justify;
+}
+.itemimg img {
+    max-width: 400px; /* Establece el ancho máximo de la imagen al 100% del contenedor */
+    height: 400px; /* Ajusta la altura automáticamente para mantener la proporción */
+    border: 5px solid black;
+    border-radius: 5%;
 }

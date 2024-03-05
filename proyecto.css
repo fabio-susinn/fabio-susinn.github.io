@@ -1,0 +1,44 @@
+footer,header{
+    vertical-align:middle;
+    display: flex;
+    background-color:aqua;  
+}
+header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding: 30px;
+    padding-right: 50px;
+}
+.item{
+    font-size:x-large;
+    padding: 20px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+main {
+    padding: 20px;
+    max-width: 80%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; 
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.container p {
+    margin-right: 5%;
+}
