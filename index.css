@@ -1,3 +1,19 @@
-p{
-    font-size: 30px;
+footer,header{
+    vertical-align:middle;
+    display: flex;
+    background-color:aqua;  
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding: 30px;
+    padding-right: 50px;
+}
+.item{
+    font-size:x-large;
+    padding: 20px;
 }

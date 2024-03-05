@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
+<head>
+    <link rel = "stylesheet" type="text/css" href="index.css"/>
+</head>
 <body>
     <header>
-        <h1>SOBRE NOSOTROS</h1>
-        <p>
-            Aqui podras encontrar información sobre los miembros del equipo
-        </p>
+        <div class="logo">
+        <img src="img/logo_web.png" width="100px" height="100px"        >
+        </div>
+        <div class="item">
+            <p><a href="nosotros.html">Miembros</a></p>
+        </div>
+
+        <div class="item">
+            <p><a href="proyecto.html">Proyecto</a></p>
+        </div>
+
+        <div class="item">
+            <p><a href="contacto.html">Contacto</a></p>
+        </div>
+        
     </header>
-    <section id="descripcion">
+    <main>
         <div class ="contenedor">
           <div class="item">
             <p>                    
@@ -34,42 +48,9 @@
             </p>
           </div>
         </div>
-    </section>
-    <style>
-.contenedor {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start; /* Alinea todos los elementos al principio */
-    margin: 20px 0;
-}
-
-.item {
-    flex-basis: calc(25% - 20px);
-    margin-bottom: 20px;
-    text-align: center; /* Centra el contenido dentro del contenedor */
-}
-
-.item img {
-    width: 150px;
-    height: 150px;
-    display: block; /* Asegura que la imagen sea un elemento de bloque */
-    margin: 0 auto; /* Centra horizontalmente la imagen */
-    border: 2px solid black; /* Agrega un borde de 2px sólido negro */
-}
-
-.descripcion {
-    text-align: center;
-}
-
-footer {
-    text-align: center; /* Centra el texto del pie de página */
-}
-    </style>
+    </main>        
     <footer>
-      <p>
-        <p><a href="index.html">Volver a Silent Speech.</a></p>
-      </p>
-    </footer>
+        <p>Derechos de autor © 2024. Todos los derechos reservados.</p>
+    </footer>    
 </body>
 </html>
