@@ -2,63 +2,35 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Contacto</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0; /* Añadido para mayor contraste */
-        }
-        form {
-            width: 80%; /* Ancho del formulario */
-            background-color: white; /* Color de fondo del formulario */
-            padding: 20px; /* Espaciado interno del formulario */
-            border-radius: 10px; /* Bordes redondeados del formulario */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra del formulario */
-        }
-        ul {
-            list-style-type: none; /* Eliminar viñetas de la lista */
-            padding: 0; /* Eliminar relleno */
-        }
-        li {
-            margin-bottom: 20px; /* Espaciado entre elementos de lista */
-        }
-        label {
-            display: block; /* Mostrar etiquetas en una nueva línea */
-            font-weight: bold; /* Negrita para etiquetas */
-        }
-        input[type="text"],
-        input[type="email"],
-        textarea {
-            width: 100%; /* Ocupar todo el ancho disponible */
-            padding: 8px; /* Espaciado interno */
-            margin-top: 4px; /* Espaciado superior */
-            border: 1px solid #ccc; /* Borde gris */
-            border-radius: 4px; /* Bordes redondeados */
-            box-sizing: border-box; /* Incluir el relleno y el borde en el ancho total */
-        }
-        button {
-            background-color: #007bff; /* Color de fondo del botón */
-            color: white; /* Color del texto del botón */
-            border: none; /* Sin borde */
-            padding: 10px 20px; /* Espaciado interno */
-            border-radius: 4px; /* Bordes redondeados */
-            cursor: pointer; /* Cambiar el cursor al pasar el ratón */
-        }
-        button:hover {
-            background-color: #0056b3; /* Cambiar color de fondo al pasar el ratón */
-        }
-    </style>
+    <link rel = "stylesheet" type="text/css" href="contacto.css"/>
 </head>
 <body>
+    <header>
+        <a href="index.html">
+            <div class="logo">
+            <img class="logo_img" src="img/logo_web.png" width="100px" height="100px">
+            </div>
+        </a>
+        <div class="itemH">
+            <p><a href="nosotros.html">Miembros</a></p>
+        </div>
 
-<form action="form_handler.php" method="post">
+        <div class="itemH">
+            <p><a href="proyecto.html">Proyecto</a></p>
+        </div>
+
+        <div class="itemH">
+            <p><a href="contacto.html">Contacto</a></p>
+        </div>
+        
+    </header>
+<form>
     <ul>
         <li>
             <label for="name">Nombre:</label>
@@ -96,35 +68,13 @@
             <button type="submit">Enviar</button>
         </li>
     </ul>
-    <footer>
-        <p>
-            El formulario ha sido diseñado con botones para enviar y opciones de selección 
-            usando radio buttons, permitiendo al usuario elegir entre opciones predefinidas. 
-            Además, se incluye un área de texto para mensajes más detallados. Para mejorar la 
-            presentación, se ha centrado el formulario y se ha encerrado en un recuadro, lo cual 
-            contribuye a una mejor organización visual y una experiencia de usuario más clara y agradable.
-        </p>
-    </footer>
 </form>
-<style>
-    .contenedor {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        margin: 20px 0;
-    }
-    .item {
-        flex-basis: calc(25% - 20px);
-        margin: 0 auto 20px auto; /* Distribuye los elementos uniformemente y mantiene la misma distancia */
-    }
-    .item img {
-        width: 150px;
-        height: 150px;
-    }
-    .descripcion {
-        text-align: left;
-    }
-</style>
+<div class="banner_container">
+    <img class="banner_img" src="img/form.jpg">
+</div>
+<footer>
+    <p>Derechos de autor © 2024. Todos los derechos reservados.</p>
+</footer>
 </body>
 </html>
 

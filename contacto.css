@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+form {
+    width: 90%; /* Ancho del formulario */
+    background-color: white; /* Color de fondo del formulario */
+    padding: 30px; /* Espaciado interno del formulario */
+    border-radius: 10px; /* Bordes redondeados del formulario */
+}
+ul {
+    list-style-type: none; /* Eliminar viñetas de la lista */
+    padding: 0; /* Eliminar relleno */
+}
+li {
+    margin-bottom: 20px; /* Espaciado entre elementos de lista */
+}
+label {
+    display: block; /* Mostrar etiquetas en una nueva línea */
+    font-weight: bold; /* Negrita para etiquetas */
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Ocupar todo el ancho disponible */
+    padding: 8px; /* Espaciado interno */
+    margin-top: 4px; /* Espaciado superior */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir el relleno y el borde en el ancho total */
+}
+button {
+    width: 100px;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+}
+button:hover {
+    background-color: #0056b3; /* Cambiar color de fondo al pasar el ratón */
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 20px 0;
+}
+.item {
+    flex-basis: calc(25% - 20px);
+    margin: 0 auto 20px auto; /* Distribuye los elementos uniformemente y mantiene la misma distancia */
+}
+.item img {
+    width: 150px;
+    height: 150px;
+}
+.descripcion {
+    text-align: left;
+}
+footer,header{
+    vertical-align:middle;
+    display: flex;
+    background-color:#146c94;
+    color: white;  
+    
+}
+
+.itemH{
+    font-size:x-large;
+    padding: 20px;
+}
+
+header a{
+    color:white;
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    padding: 30px;
+    padding-right: 50px;
+}
+.item{
+    font-size:x-large;
+    padding: 10px;
+}
+
+p,label{
+    font-family:"Barlow",sans-serif;
+}
+
+.banner_container{
+    display:flex;
+    height: fit-content;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.banner_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 215px;
+}
+
+footer{
+    margin: 0;
+    
+}
+
+.logo_img{
+    border-radius: 50%;
+    transition: box-shadow 0.25s;
+}
+
+.logo_img:hover{
+    box-shadow: 0px 0px 13px rgba(255, 255, 255, 0.9);
+}

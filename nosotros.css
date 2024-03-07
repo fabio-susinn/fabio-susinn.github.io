@@ -1,11 +1,22 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 footer,header{
     vertical-align:middle;
     display: flex;
-    background-color:aqua;  
+    background-color:#146c94;
     padding: 10px;
     display: flex;
     align-items: center;
 }
+
+footer,header a{
+    color:white;
+}
+
 .logo{
     padding: 30px;
     padding-right: 50px;
@@ -36,3 +47,28 @@ h1{
     border: 5px solid black;
     border-radius: 5%;
 }
+.descripcion{
+    font-family: "Barlow", sans-serif;
+
+}
+
+h1, h2,h3 {
+    text-align: center;
+    font-family: "Barlow";
+    font-weight: bold; 
+}
+p{
+    text-align: justify;
+    font-family: "Barlow", sans-serif;
+}
+.logo_img{
+    border-radius: 50%;
+    transition: box-shadow 0.25s;
+}
+
+.logo_img:hover{
+    box-shadow: 0px 0px 13px rgba(255, 255, 255, 0.9);
+}
+
+
+
