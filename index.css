@@ -18,111 +18,71 @@ footer,header{
     color: white;  
 }
 
-header a{
-    color:white;
-}
-
 header{
     padding: 10px;
     display: flex;
     align-items: center;
 }
-.logo{
-    padding: 30px;
-    padding-right: 50px;
+
+header a{
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
+
+header a:hover {
+    box-shadow: inset 130px 0 0 0 #ffffff;
+    color: #146c94;
+}
+
 .item{
     font-size:x-large;
     padding: 20px;
 }
-.contenedor {/*CONTENEDOR DE LAS 3 SECCIONES*/
-    vertical-align: middle;
-    display: flex;
-    justify-content: space-around;
-}
 
-.contactoW{/*CLASE DEL CONTACTO*/
-    border: solid 3px black;
-    margin: 3%;
-    margin-top: 0px;
-    width: 20%;
-    text-align: center;
-}
-.contactoW p{
-    margin: 7%;
-}
-.contactoW img{
-    margin-top: 20%;
-    display: inline-block;
-}
-
-.infoW{/*CLASE DE INFORMACION PRICIPAL*/
-    margin: 3%;
-    margin-top: 0px;
-    border: solid 3px black;
-    width: 50%;
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
-}   
-.infoW img{
-    margin-top: 70px;
-    display: inline-block;
-    border: 1px solid black;
-}
-
-.miembrosW{/*CLASE DE LOS MIEMBROS Y LAS IMAGENES*/
-    border: solid 3px black;
-    margin: 3%;
-    margin-top: 0px;
-    width: 20%;
-}
-.miembroscontainer {/*CLASE QUE CONTIENE LAS IMAGENES Y NOMBRES*/
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-around;
-    align-items: center; 
-}
-.itemimg {
-    margin-left: 5%;
-    margin-right: 5%;
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center;
-}
-
-.itemimg img {
-    width: 150px; 
-    height: 150px; 
-    border-radius: 50%;
-    transition: box-shadow 0.5s, height 0.75s,width 0.75s;
-}
-
-.itemimg img:hover{
-    width: 170px;
-    height: 170px;
-    box-shadow: 0px 8px 5px rgba(0.5,0.5, 0.5, 0.5);
-}
-
-/*HEADERS Y ETC*/
 h1, h2,h3 {
     text-align: center;
-    font-family: "Barlow",sans-serif;
+    font-family: "Barlow",Arial, Helvetica, sans-serif;
     font-weight: bold; 
 }
+
+h1,h2{
+    margin-bottom: 15px;
+}
+
 p{
     text-align: justify;
-    font-family: "Barlow", sans-serif;
+    font-family: "Barlow",Arial, Helvetica, sans-serif;
 }
 
 .logo_img{
+    padding: 5px;
     border-radius: 50%;
-    transition: box-shadow 0.25s;
 }
 
-.logo_img:hover{
-    box-shadow: 0px 0px 13px rgba(255, 255, 255, 0.9);
+.hyperlink_img{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 }
 
+.itemimg{
+    padding: 0;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid #146c94;
+    transition: box-shadow 0.25s, border 0.10s;
+}
 
+.itemimg:hover{
+    cursor:pointer;
+    border: 0;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.8);
+}
+
+.img-fluid{
+    margin-bottom: 5px;
+}
