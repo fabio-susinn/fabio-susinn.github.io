@@ -1,6 +1,46 @@
-body {
+body{
     margin: 0;
     padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+footer{
+    padding-left: 10px;
+}
+
+footer,header{
+    vertical-align:middle;
+    display: flex;
+    background-color:#146c94;
+    color: white;  
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+header .header-link{
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+header .header-link:hover {
+    box-shadow: inset 130px 0 0 0 #ffffff;
+    color: #146c94;
 }
 form {
     width: 90%; /* Ancho del formulario */
@@ -59,29 +99,10 @@ button:hover {
 .descripcion {
     text-align: left;
 }
-footer,header{
-    vertical-align:middle;
-    display: flex;
-    background-color:#146c94;
-    color: white;  
-    
-}
-
 .itemH{
     font-size:x-large;
     padding: 20px;
 }
-
-header a{
-    color:white;
-}
-
-header{
-    padding: 10px;
-    display: flex;
-    align-items: center;
-}
-
 .logo{
     padding: 30px;
     padding-right: 50px;
@@ -110,12 +131,8 @@ p,label{
     height: 215px;
 }
 
-footer{
-    margin: 0;
-    
-}
-
 .logo_img{
+    padding:5px;
     border-radius: 50%;
     transition: box-shadow 0.25s;
 }
